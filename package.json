@@ -1,0 +1,18 @@
+{
+  "name": "hixson",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "wintersmith": "*",
+    "wintersmith-stylus": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "export REV=$(git rev-list HEAD --max-count=1) && wintersmith build && pushd build && git add . && git commit -m \"publishing ${REV}\" && git push && unset REV",
+    "test": "wintersmith preview"
+  },
+  "repository": "http://github.com",
+  "author": "Visnu Pitiyanuvath <visnup@gmail.com>",
+  "license": "BSD"
+}

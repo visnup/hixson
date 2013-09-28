@@ -1,0 +1,26 @@
+!!! 5
+html( lang="en" )
+  head
+    block head
+      meta( charset="utf-8" )
+      meta( name="viewport", content="width=device-width" )
+      title
+        block title
+          | Hixson Urology
+      link( href="/css/layout.css", rel="stylesheet", type="text/css" )
+      link( rel="icon", href="/favicon.ico", type="image/png" )
+  body
+    #page
+      header
+        block header
+          h1: a( href="/" ) Hixson Urology
+          h4 Proudly serving Metro Chattanooga for 2 decades
+          h5 Experienced board-certified Urologists, Compassionate Care, Personalized Treatment
+          address
+            p Hixson Urology, 2051 Hamill Road, Suite 201, Hixson, TN 37343
+            p Tel: (423) 877-2844
+            p Fax: (423) 877-1959
+          nav: ul
+            li: a( href="/physicians.html" ) Physicians
+      #content
+        block content
