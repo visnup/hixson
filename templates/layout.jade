@@ -13,14 +13,21 @@ html( lang="en" )
     #page
       header
         block header
-          h1: a( href="/" ) Hixson Urology
-          h4 Proudly serving Metro Chattanooga for 2 decades
-          h5 Experienced board-certified Urologists, Compassionate Care, Personalized Treatment
-          address
-            p Hixson Urology, 2051 Hamill Road, Suite 201, Hixson, TN 37343
-            p Tel: (423) 877-2844
-            p Fax: (423) 877-1959
+          .info
+            h1: a( href="/" ) Hixson Urology
+            p Proudly serving Metro Chattanooga for 2 decades
+            //p Experienced board-certified Urologists, Compassionate Care, Personalized Treatment
+            address
+              p 2051 Hamill Road, Suite 201, Hixson, TN 37343
+              p Tel: (423) 877-2844 Fax: (423) 877-1959
           nav: ul
+            li: a( href="/" ) Welcome
             li: a( href="/physicians.html" ) Physicians
+            li: a( href="/services.html" ) Services
+            li: a( href="/directions.html" ) Directions
+            li: a( href="/policies.html" ) Office Policies
+            li: a( href="/contact.html" ) Contact Us
+
+            li: a( href="/new.html" ) New Patient
       #content
         block content

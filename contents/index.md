@@ -1,4 +1,5 @@
 ---
+title: Welcome
 template: page.jade
 ---
 

@@ -1,0 +1,51 @@
+@import 'normalize.css'
+@import 'nib'
+
+body
+  text-align center
+  line-height 150%
+
+h1, h2, h3, h4, h5, h6
+  font-weight normal
+
+a
+  color hsl(208, 29%, 67%)
+
+#page
+  max-width 1200px
+  margin 0 auto
+  text-align left
+
+header
+  position relative
+  background url('/images/cohn-and-caldwell.jpg') no-repeat
+  background-position center top
+  background-size cover
+  min-height 500px
+  .info, nav
+    padding 10px 2%
+    color white
+    background-color hsla(0, 0%, 0%, .5)
+  h1, h2, h3, h4, h5, h6, p
+    margin 0
+  h1
+    margin .25em 0
+  address
+    position absolute
+    top 19px
+    right 20px
+    font-style normal
+  nav
+    position absolute
+    bottom 0
+    width 96%
+    ul
+      padding 0
+      margin 0
+    li
+      display inline-block
+    li + li
+      margin-left 1em
+
+#content
+  padding 0 2%
