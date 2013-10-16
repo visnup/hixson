@@ -70,3 +70,7 @@ header nav li + li {
 #content {
   padding: 0 2%;
 }
+img.map {
+  width: 600px;
+  height: 300px;
+}
